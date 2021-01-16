@@ -1,0 +1,20 @@
+{
+  "name": "project-music-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for playing music",
+  "main": "index.mjs",
+  "scripts": {
+    "serve": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noah Gaeta",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-opus": "^0.3.3",
+    "ytdl-core": "^4.4.3",
+    "ytsr": "^3.2.1"
+  }
+}
